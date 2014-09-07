@@ -1,4 +1,4 @@
-CICS3120.Project1
+CICS3120.War and Peace
 =================
 
 Java class assignments
