@@ -7,7 +7,7 @@ public class Deck {
 	
 	public Deck()
 	{
-		
+		Init();
 	}
 	private void Init()
 	{
