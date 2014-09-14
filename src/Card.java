@@ -19,8 +19,8 @@ public class Card {
 		//	
 		//}
 	}
-	
-	public String ToString()
+	@Override
+	public String toString()
 	{
 		String result = "";
 		
@@ -82,7 +82,7 @@ public class Card {
 	{
 		boolean result = false;
 		
-		System.out.println("Card 1=" + value + " Card 2=" + inputcard.value);	
+		//System.out.println("Player 1 Card =" + value + " Player 2 Card=" + inputcard.value);	
 		
 		if (value > inputcard.value)
 		{

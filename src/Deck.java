@@ -71,7 +71,7 @@ public class Deck {
 	private void addCardToDeck(Map<Integer, Card> deck, int card, int suite) 
 	{ 
 		Card newCard = new Card(card, suite); 
-
+		if (card ==1) card = 14;
 		int index = deck.size() + 1; 
 		newCard.value = card; 
 		newCard.suit = suite; 
