@@ -11,7 +11,7 @@ public class Card {
 
 	enum Suits
 	{
-		Clubs, Diamond, Hearts, Spades
+		Clubs, Diamonds, Hearts, Spades
 	}
 	
 	@Override
