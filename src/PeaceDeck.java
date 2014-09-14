@@ -2,7 +2,7 @@ import java.util.Map;
 
 public class PeaceDeck extends Deck {
 
-	public void addCardToDeck(Map<Integer, Card> deck, int card, int suite) 
+	protected void addCardToDeck(Map<Integer, Card> deck, int card, int suite) 
 	{ 
 		Card newCard = new PeaceCard(card, suite); 
 		if (card ==1) card = 14;

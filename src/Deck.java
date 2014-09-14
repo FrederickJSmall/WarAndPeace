@@ -54,5 +54,5 @@ public abstract class Deck {
 		return index;
 	}
 	
-	public abstract void addCardToDeck(Map<Integer, Card> deck, int card, int suite) ;
+	protected abstract void addCardToDeck(Map<Integer, Card> deck, int card, int suite) ;
 }
