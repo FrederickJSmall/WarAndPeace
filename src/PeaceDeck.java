@@ -1,12 +1,14 @@
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Random;
 
-public abstract class Deck {
+public class PeaceDeck {
 	
 	Map<Integer, Card> deck = new HashMap<Integer, Card>();
 	private final static int CARDS = 13; 
 	private final static int SUITES = 4; 
 
-	public Deck()
+	public PeaceDeck()
 	{
 		Init();
 	}
@@ -55,17 +57,16 @@ public abstract class Deck {
 		return index;
 	}
 	
-	public abstract void addCardToDeck(Map<Integer, Card> deck, int card, int suite) ;
-	/*
+	private void addCardToDeck(Map<Integer, Card> deck, int card, int suite) 
 	{ 
-		Card newCard = new Card(card, suite); 
+		Card newCard = new PeaceCard(card, suite); 
 		if (card ==1) card = 14;
 		int index = deck.size() + 1; 
 		newCard.value = card; 
 		newCard.suit = suite; 
  		deck.put(index, newCard); 
  	} 
-	*/
+	
 	
 
 

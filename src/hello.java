@@ -1,8 +1,8 @@
 public class hello {
 
 	public static void main(String[] args) {
-		Deck deck1 = new Deck();
-		Deck deck2 = new Deck();
+		Deck deck1 = new WarDeck();
+		Deck deck2 = new WarDeck();
 		String playerMessage = " there are no more cards in the deck are you trying to cheat";
 		String winner = "";
 		boolean cheater  = false;

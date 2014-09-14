@@ -1,4 +1,4 @@
-public class Card {
+public abstract class Card {
 	
 	int value;
 	int suit;
@@ -72,7 +72,8 @@ public class Card {
 		return result;
 	}
 	
-	public boolean Winner(Card inputcard)
+	public abstract boolean Winner(Card inputcard);
+	/*
 	{
 		boolean result = false;
 		
@@ -97,4 +98,5 @@ public class Card {
 		}
 		return result;
 	}
+	*/
 }
