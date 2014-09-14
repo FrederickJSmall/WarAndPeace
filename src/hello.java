@@ -1,5 +1,3 @@
-import java.text.MessageFormat;
-
 public class hello {
 
 	public static void main(String[] args) {
