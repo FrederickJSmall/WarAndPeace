@@ -51,7 +51,6 @@ public class Card {
 			break;
 		}
 		
-		
 		return result;
 		
 	}
