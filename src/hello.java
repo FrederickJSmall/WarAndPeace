@@ -1,8 +1,19 @@
 public class hello {
 
 	public static void main(String[] args) {
-		Deck deck1 = new WarDeck();
-		Deck deck2 = new WarDeck();
+		System.out.println("********** I DECLARE WAR **********");
+		playWarPeace(new WarDeck(), new WarDeck());
+		System.out.println("");
+		System.out.println("");
+		
+		System.out.println("********** I DECLARE PEACE **********");
+		playWarPeace(new PeaceDeck(), new PeaceDeck());
+		System.out.println("");
+		System.out.println("");
+	}
+
+	private static void playWarPeace(Deck deck1, Deck deck2)
+	{
 		String playerMessage = " there are no more cards in the deck are you trying to cheat";
 		String winner = "";
 		boolean cheater  = false;
@@ -55,7 +66,8 @@ public class hello {
 		
 		System.out.println("");
 		System.out.println(winner);
-		System.out.println("********** Game Over **********");	
+		System.out.println("********** Game Over **********");
+		
 	}
-
+	
 }

@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 
-public class PeaceDeck {
+public class PeaceDeck extends Deck {
 	
 	Map<Integer, Card> deck = new HashMap<Integer, Card>();
 	private final static int CARDS = 13; 
@@ -57,7 +57,7 @@ public class PeaceDeck {
 		return index;
 	}
 	
-	private void addCardToDeck(Map<Integer, Card> deck, int card, int suite) 
+	public void addCardToDeck(Map<Integer, Card> deck, int card, int suite) 
 	{ 
 		Card newCard = new PeaceCard(card, suite); 
 		if (card ==1) card = 14;
