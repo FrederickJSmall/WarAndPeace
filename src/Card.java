@@ -73,30 +73,4 @@ public abstract class Card {
 	}
 	
 	public abstract boolean Winner(Card inputcard);
-	/*
-	{
-		boolean result = false;
-		
-		if (value > inputcard.value)
-		{
-			result = true;
-		}
-		else if (value < inputcard.value)
-		{
-			result = false;
-		}
-		else if (value == inputcard.value)
-		{
-			if(suit > inputcard.suit)
-			{
-				result = true;
-			}
-			else
-			{
-				result = false;
-			}
-		}
-		return result;
-	}
-	*/
 }

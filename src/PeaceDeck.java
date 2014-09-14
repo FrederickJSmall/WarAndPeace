@@ -31,7 +31,6 @@ public class PeaceDeck extends Deck {
 		if (deck.size() >0)
 		{
 			int index = findCard();
-			//System.out.println("Index=" + index);
 			card = deck.get(index);
 			deck.remove(index);
 		}
