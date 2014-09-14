@@ -1,4 +1,3 @@
-
 public class Card {
 	
 	int value;
@@ -9,16 +8,12 @@ public class Card {
 		value = inputvalue;
 		suit = inputsuit;
 	}
+
 	enum Suits
 	{
-		
 		Clubs, Diamond, Hearts, Spades
-
-		//private Suits(String suitName)
-		//{
-		//	
-		//}
 	}
+	
 	@Override
 	public String toString()
 	{
@@ -74,15 +69,12 @@ public class Card {
 			result = "Spades";
 			break;
 		}
-		
-		
 		return result;
 	}
+	
 	public boolean Winner(Card inputcard)
 	{
 		boolean result = false;
-		
-		//System.out.println("Player 1 Card =" + value + " Player 2 Card=" + inputcard.value);	
 		
 		if (value > inputcard.value)
 		{
@@ -103,9 +95,6 @@ public class Card {
 				result = false;
 			}
 		}
-		
 		return result;
 	}
-	
-
 }
