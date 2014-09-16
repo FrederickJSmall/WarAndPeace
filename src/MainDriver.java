@@ -1,4 +1,4 @@
-public class hello {
+public class MainDriver {
 
 	public static void main(String[] args) {
 		System.out.println("********** I DECLARE WAR **********");
@@ -6,10 +6,10 @@ public class hello {
 		System.out.println("");
 		System.out.println("");
 		
-		System.out.println("********** I DECLARE PEACE **********");
-		playWarPeace(new PeaceDeck(), new PeaceDeck());
-		System.out.println("");
-		System.out.println("");
+		//System.out.println("********** I DECLARE PEACE **********");
+		//playWarPeace(new PeaceDeck(), new PeaceDeck());
+		//System.out.println("");
+		//System.out.println("");
 	}
 
 	private static void playWarPeace(Deck deck1, Deck deck2)
